@@ -1,0 +1,11 @@
+{
+  "uniform_ce": 2.1972246170043945,
+  "expected_ln9": 2.1972245773362196,
+  "focal_gamma0_abs_error": 0.0,
+  "backbone": "mobilenetv3_large_100",
+  "initial_loss": 2.9398365020751953,
+  "overfit_loss": 0.0,
+  "overfit_steps": 75,
+  "cutmix_lambda": 0.6845703125,
+  "device": "cuda"
+}

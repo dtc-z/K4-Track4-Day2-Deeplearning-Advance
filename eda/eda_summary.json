@@ -1,0 +1,104 @@
+{
+  "split": {
+    "n": {
+      "train": 10501,
+      "val": 3501,
+      "test": 3507
+    },
+    "ratios": {
+      "train": 0.5997487006682277,
+      "val": 0.19995430921240506,
+      "test": 0.2002969901193672
+    },
+    "per_class": {
+      "train": {
+        "Chinee Apple": 675,
+        "Lantana": 637,
+        "Parkinsonia": 618,
+        "Parthenium": 613,
+        "Prickly Acacia": 637,
+        "Rubber Vine": 605,
+        "Siam Weed": 644,
+        "Snake Weed": 609,
+        "Negatives": 5463
+      },
+      "val": {
+        "Chinee Apple": 225,
+        "Lantana": 213,
+        "Parkinsonia": 206,
+        "Parthenium": 204,
+        "Prickly Acacia": 212,
+        "Rubber Vine": 202,
+        "Siam Weed": 215,
+        "Snake Weed": 203,
+        "Negatives": 1821
+      },
+      "test": {
+        "Chinee Apple": 226,
+        "Lantana": 213,
+        "Parkinsonia": 207,
+        "Parthenium": 205,
+        "Prickly Acacia": 213,
+        "Rubber Vine": 202,
+        "Siam Weed": 215,
+        "Snake Weed": 204,
+        "Negatives": 1822
+      }
+    },
+    "overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "union": 17509,
+    "missing_images": 0,
+    "expected_total": 17509
+  },
+  "full_class_counts": {
+    "Chinee apple": {
+      "observed": 1126,
+      "paper_table": 1125,
+      "matches": false
+    },
+    "Lantana": {
+      "observed": 1063,
+      "paper_table": 1064,
+      "matches": false
+    },
+    "Parkinsonia": {
+      "observed": 1031,
+      "paper_table": 1031,
+      "matches": true
+    },
+    "Parthenium": {
+      "observed": 1022,
+      "paper_table": 1022,
+      "matches": true
+    },
+    "Prickly acacia": {
+      "observed": 1062,
+      "paper_table": 1062,
+      "matches": true
+    },
+    "Rubber vine": {
+      "observed": 1009,
+      "paper_table": 1009,
+      "matches": true
+    },
+    "Siam weed": {
+      "observed": 1074,
+      "paper_table": 1074,
+      "matches": true
+    },
+    "Snake weed": {
+      "observed": 1016,
+      "paper_table": 1016,
+      "matches": true
+    },
+    "Negative": {
+      "observed": 9106,
+      "paper_table": 9106,
+      "matches": true
+    }
+  }
+}

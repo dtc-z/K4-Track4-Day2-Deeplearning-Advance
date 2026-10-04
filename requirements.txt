@@ -1,0 +1,11 @@
+# Colab/Kaggle provide a compatible torch + torchvision build with GPU support.
+# On a local machine, install the matching pair from https://pytorch.org/get-started/locally/ first.
+timm==1.0.15
+huggingface_hub==0.34.4
+fvcore==0.1.5.post20221221
+numpy>=1.26,<3
+pandas>=2.2,<3
+Pillow>=10,<13
+matplotlib>=3.8,<4
+openpyxl>=3.1,<4
+scikit-learn>=1.4,<2
